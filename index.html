@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Suggestor</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form id="min-max">
+        <label class="labels">Calories</label>
+        <label for="min-cal">min</label>
+        <input type="text" id="min-cal" name="min-cal" value=0></input>
+
+        <label for="max-cal">max</label>
+        <input type="text" id="max-cal" name="max-cal" value=1000></input> <br>
+
+        <label class="labels">Proteins</label>
+        <label for="min-prot">min</label>
+        <input type="text" id="min-prot" name="min-prot" placeholder="(grams)" value=0></input>
+
+        <label for="max-prot">max</label>
+        <input type="text" id="max-prot" name="max-prot" placeholder="(grams)" value=1000></input> <br>
+
+        <label class="labels">Carbs</label>
+        <label for="min-carbs">min</label>
+        <input type="text" id="min-carbs" name="min-carbs" placeholder="(grams)" value=0></input>
+        <label for="max-carbs">max</label>
+        <input type="text" id="max-carbs" name="max-carbs" placeholder="(grams)" value=1000></input> <br>
+
+        <label class="labels">Fats</label>
+        <label for="min-fat">min</label>
+        <input type="text" id="min-fat" name="min-fat" placeholder="(grams)" value=0></input>
+        <label for="max-fat">max</label>
+        <input type="text" id="max-fat" name="max-fat" placeholder="(grams)" value=1000></input> <br>
+
+        <button type="submit" value="Submit" class="submit">Submit</button>
+    </form> <br>
+
+    <button id="load">load food</button>
+
+    <table id="myTable"> 
+      <tr class="table-header">
+        <th>Food</th>
+        <th>Calories</th>
+        <th>Protein (g)</th>
+        <th>Carbs  (g)</th>
+        <th>Fats  (g)</th>
+      </tr>
+
+    </table>
+    <script src="tracking.js"></script>
+  </body>
+</html>

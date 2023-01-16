@@ -1,0 +1,55 @@
+input {
+    padding: 3px;
+    margin: 3px;
+}
+
+.submit {
+    width: 100%;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.labels {
+    display: inline-block;
+    text-align: end;
+    border-right: 3px solid black;
+    padding: 3px;
+    width: 60px;
+}
+
+#myTable {
+    width: 75%;
+    margin-left: 12.5%;
+    border: 0;
+}
+
+.table-header {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.table-header:hover {
+    background-color: black;
+}
+
+tr {
+    border: none;
+    background-color: lightblue;
+    border-style: none;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}
+
+td {
+    border: none;
+    padding: 3px;
+    border-style: none;
+}
